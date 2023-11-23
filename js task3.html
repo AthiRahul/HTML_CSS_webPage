@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        str='';
+         for(let i=1;i<=5;i++)
+         {
+         let arr=['A','B','C','D','E'];
+             for(let j=0;j<i;j++)
+             {
+                str+=arr[j];
+             }
+             str+='\n'
+         }
+         console.log(str);
+ 
+         
+         str='';
+         let number=1;
+         for(let i=1;i<=5;i++)
+         {
+         
+             for(let j=1;j<=i;j++)
+             {
+                str+=number;
+                ++number;
+             }
+             str+='\n'
+         }
+         console.log(str);
+        
+ 
+         str='';
+        for(let i=1;i<=5;i++){
+         for(let space=1;space<=5-i;space++){
+             str+=" ";
+         }
+         for(let j=1;j<=2*i-1;j++){
+             
+                 str+="*";
+             
+         }
+         str+="\n";
+        }
+        console.log(str);
+ 
+ 
+        str='';
+        for(let i=1;i<=5;i++){
+         for(let space=1;space<=5-i;space++){
+             str+=" ";
+         }
+         for(let j=1;j<=2*i-1;j++){
+             
+                 str+=j;
+             
+         }
+         str+="\n";
+        }
+        console.log(str);
+        
+        
+               
+            for (i = 0; i <= 5; i++) {
+            for (j = 0; j <=10; j++) {
+                if ((i==0)||(j==i)||(j==10-i )) {
+                    
+                    document.write('*');
+                }
+                else {
+                    
+                    document.write(' &nbsp')
+                }
+                
+            }
+            document.write('<br>')
+            
+        }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let array=['a',1,'s',3,'h'];
+        console.log(array.join());
+        console.log(array.length);
+        console.log(array.toString());
+        console.log(array.length);
+        let numbers=[1,2,3,4]
+        /*let doubledarray=[];
+        //numbers.forEach(function(number){
+            array.forEach(function(element){
+            doubledarray.push(element*2);
+        });
+        console.log(doubledarray);
+        console.log(array);*/
+        let doublednumber=numbers.map(function(number){
+            return number*2;
+        });
+        console.log(doublednumber);
+        console.log(array.includes('a'));
+    </script>
+</body>
+</html>

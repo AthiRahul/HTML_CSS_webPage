@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    
+    //1.Check string length is odd or even
+
+    let string = prompt('enter the string');
+    console.log(string);
+    console.log("string length is"+string.length);
+    if (string.length%2 == 0)
+    {
+        console.log("the string is even");
+    } else {console.log("string is odd");
+
+    }
+    //2.Check if number is posive negetive or zero
+
+    let num=prompt('enter the number')
+    console.log("the number is"+num);
+    if (num>0)
+    {
+        console.log("number is positive");
+    
+    }else if (num<0)
+    {
+        console.log("number is negetive");
+    }else {
+        console.log("number is zero");
+    }
+
+
+    //3.Create a function that takes an array and check that 1st and last element of a array is same or not
+
+    let arraylen=prompt('enter the length of array');
+    console.log("array length is"+arraylen);
+    let array=[];
+    let arr1=[]
+    let element;
+    for(var i=0;i<arraylen;i++)
+    {
+       element =  prompt("enter the array"+array[i]);
+       arr1.push(element)
+    }
+    console.log(arr1)
+function elementCheck(arr)
+{
+    if(arr[0]==arr[arraylen-1])
+    {
+        return console.log("the elements are same");
+    }
+    else{
+        return console.log("the elements are not same");
+    }
+}
+    elementCheck(arr1);
+    
+
+
+   // Grade for input mark
+
+   let mark=prompt("enter the mark");
+   console.log("the mark is"+mark);
+    if(mark>90 && mark<=100){
+        console.log("S grade");
+    }else if(mark>80&&mark<=90){
+        console.log("grade A")
+    }
+    else if(mark>70&&mark>=80){
+        console.log("Grade B");
+    }else if(mark>60&&mark<=70){
+        console.log("C grade");
+    }else if(mark>50&&mark<=60){
+        console.log("D grade");
+    }else if(mark>40&&mark<=50){
+        console.log("Grade E");
+    }else if(mark>0&&mark<40){
+        console.log("Student has failed");
+    }else{
+        console.log("invalid mark");
+    }
+    
+   </script> 
+</body>
+</html>
