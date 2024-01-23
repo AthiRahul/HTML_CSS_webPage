@@ -1,0 +1,43 @@
+.container1{
+    border: 2px solid antiquewhite;
+    height: 10px;
+    font-size: medium;
+    color: black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:space-around;
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+}
+.container2{
+    border: 2px solid gray;
+    height: 10px;
+    background-color:gray;
+    font-size: medium;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 5vh;
+    width: 100vw;
+   text-align: center;
+}
+/*.item2{
+    height:5vh;
+    width: 20%;
+}*/
+.item2:hover{
+    background-color: black;
+    height:5vh;
+    width: 20%;
+}
+.logo1{
+    height: 5px;
+    width: 15px;
+}
+.item1:hover{
+    background-color:green;
+    height:5vh;
+    width: 20%;
+}

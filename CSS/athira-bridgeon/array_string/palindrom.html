@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str = prompt("enter the string")
+        console.log(str);
+        let new_str='';
+        for(let i=str.length-1;i>=0;i--)
+        {
+            new_str += str[i];
+        }
+        console.log(new_str);
+        if(str==new_str)
+            {
+                 console.log(`${str} is palindrom`);
+            }
+        else 
+        {
+            console.log(`${str} is not palindrom`);
+        }
+      
+    </script>
+</body>
+</html>

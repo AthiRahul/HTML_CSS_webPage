@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         
+        
+        let array = [1,2,1,3,1];
+        let new_array = [];
+        let flag;
+         for(let i=0;i<=4;i++){
+            flag=0
+            for(let j=0;j<i;j++){
+                if(array[i]==array[j]){
+                    flag=1;
+                    break;
+                }
+            }
+            if(flag == 0){
+                new_array.push(array[i])
+            }
+            
+         }
+         console.log(new_array);
+
+        
+    </script>
+</body>
+</html>

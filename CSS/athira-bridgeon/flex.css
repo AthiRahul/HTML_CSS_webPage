@@ -1,0 +1,17 @@
+.container{
+    width: 500px;
+    /*height: 50px;*/
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    
+}
+.a{
+    color:brown ;
+    border: 1px solid black;
+    padding: 20px 20px;
+    background-color: blue;
+    flex:1;
+    
+}
